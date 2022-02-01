@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
+
+* {
+  margin: 10px;
+  padding: 1%;
+  font-family: "Quintessential";
+}
+.showcase
+{
+  font-size: 40px;
+}
+body{
+  background-image: url('../images/contactbg.jpg');
+}
+.form{
+  background:white;
+  margin:auto ;
+  padding: 100px ;
+  width: 700px ;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns:700px;
+}
+.form input{
+ height: 50px ;
+ font-size:27px;
+}
+.form textarea{
+  font-size:27px;
+}
+.submit{
+  margin: 0%;
+  padding: 20px;
+  
+}
+.back{
+  text-transform: uppercase;
+}

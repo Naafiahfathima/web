@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Welcome!</title>
+</head>
+<body>
+  <section class="showcase">
+  <header>
+    <h2 class="logo"> Welcome<br> </h2>
+    <div class="toggle "></div>
+  </header>
+  <video src="images/background.mp4" muted loop autoplay></video>
+
+  <div class="overlay">  </div>
+
+  <div class="text">
+  <!--<img class="pic" src="images/nf.jpg" alt= "A picture of Naafiah">-->
+  <h1 class="title">Hello</h1>  
+  <h2 class="title2">My name is Naafiah Fathima</h2>
+  <p><strong> I am currently pursuing B.Tech in Information Technology and this is my first website.</strong></p>
+  <a href="about.html">Explore</a>
+</div>
+
+<ul class="social">
+<li><a href="mailto:naafiahfathima1962@gmail.com"><img src="images/gmail.png" width="150px"></li></a>
+<li><a href="https://www.instagram.com/fathima_n19/"><img src="images/instagram.png" width="150px" ></li></a>
+<li><a href="https://www.linkedin.com/in/naafiah-fathima-739260223/"><img src="images/linkedin.png" width="150px"></li></a>
+</ul>
+</section>
+
+<div class="menu">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</div>
+<script>
+  const menuToggle = document.querySelector('.toggle')
+  const showcase = document.querySelector('.showcase')
+
+  menuToggle.addEventListener('click',()=>{
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+  })
+</script>
+</body>
+</html>
